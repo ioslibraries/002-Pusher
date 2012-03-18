@@ -7,15 +7,23 @@
 //
 
 #import "ILAppDelegate.h"
+#import "ILChatViewController.h"
+#import "PTPusher.h"
 
 @implementation ILAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.viewController = [[ILChatViewController alloc] initWithNibName:@"ILChatViewController" bundle:nil];
+    [self.window setRootViewController:self.viewController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

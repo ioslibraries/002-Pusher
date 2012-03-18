@@ -12,3 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define PUSHER_KEY @"b77b09cbcc52735e9187"
+#define PUSHER_SECRET @"c8da31b780044fbc9d45"
+#define PUSHER_APP_ID @"16463"

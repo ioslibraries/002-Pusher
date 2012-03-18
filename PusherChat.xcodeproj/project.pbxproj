@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35492DF41505433C007285FA /* libPusher-combined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492DF31505433C007285FA /* libPusher-combined.a */; };
+		35492E051505652D007285FA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492E041505652D007285FA /* SystemConfiguration.framework */; };
+		35492E0715056545007285FA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492E0615056545007285FA /* CFNetwork.framework */; };
+		35492E091505674E007285FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492E081505674E007285FA /* Security.framework */; };
+		35492E1515056B27007285FA /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492E1415056B27007285FA /* libicucore.dylib */; };
+		35492ECE1507F8DE007285FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35492ECD1507F8DE007285FA /* QuartzCore.framework */; };
 		3576ECD4150482CD002DD1F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3576ECD3150482CD002DD1F4 /* UIKit.framework */; };
 		3576ECD6150482CD002DD1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3576ECD5150482CD002DD1F4 /* Foundation.framework */; };
 		3576ECD8150482CD002DD1F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3576ECD7150482CD002DD1F4 /* CoreGraphics.framework */; };
 		3576ECDE150482CD002DD1F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3576ECDC150482CD002DD1F4 /* InfoPlist.strings */; };
 		3576ECE0150482CD002DD1F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576ECDF150482CD002DD1F4 /* main.m */; };
 		3576ECE4150482CD002DD1F4 /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576ECE3150482CD002DD1F4 /* ILAppDelegate.m */; };
+		3576ECED150482E5002DD1F4 /* ILChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3576ECEB150482E5002DD1F4 /* ILChatViewController.m */; };
+		3576ECEE150482E5002DD1F4 /* ILChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3576ECEC150482E5002DD1F4 /* ILChatViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35492DF31505433C007285FA /* libPusher-combined.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPusher-combined.a"; sourceTree = "<group>"; };
+		35492DF7150564E6007285FA /* PTEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTEventListener.h; sourceTree = "<group>"; };
+		35492DF8150564E6007285FA /* PTPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusher.h; sourceTree = "<group>"; };
+		35492DF9150564E6007285FA /* PTPusherAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherAPI.h; sourceTree = "<group>"; };
+		35492DFA150564E6007285FA /* PTPusherChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherChannel.h; sourceTree = "<group>"; };
+		35492DFB150564E6007285FA /* PTPusherConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherConnection.h; sourceTree = "<group>"; };
+		35492DFC150564E6007285FA /* PTPusherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherDelegate.h; sourceTree = "<group>"; };
+		35492DFD150564E6007285FA /* PTPusherErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherErrors.h; sourceTree = "<group>"; };
+		35492DFE150564E6007285FA /* PTPusherEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEvent.h; sourceTree = "<group>"; };
+		35492DFF150564E6007285FA /* PTPusherEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEventDispatcher.h; sourceTree = "<group>"; };
+		35492E00150564E6007285FA /* PTPusherEventPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherEventPublisher.h; sourceTree = "<group>"; };
+		35492E01150564E6007285FA /* PTPusherMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherMacros.h; sourceTree = "<group>"; };
+		35492E02150564E6007285FA /* PTPusherPresenceChannelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPusherPresenceChannelDelegate.h; sourceTree = "<group>"; };
+		35492E03150564E6007285FA /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		35492E041505652D007285FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35492E0615056545007285FA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		35492E081505674E007285FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		35492E1415056B27007285FA /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		35492E1F150574C2007285FA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		35492ECD1507F8DE007285FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3576ECCF150482CD002DD1F4 /* PusherChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PusherChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3576ECD3150482CD002DD1F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3576ECD5150482CD002DD1F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3576ECD7150482CD002DD1F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3576ECDB150482CD002DD1F4 /* PusherChat-Info.plist */ = {isa = PBXFileReference; path = "PusherChat-Info.plist"; sourceTree = "<group>"; };
+		3576ECDB150482CD002DD1F4 /* PusherChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PusherChat-Info.plist"; sourceTree = "<group>"; };
 		3576ECDD150482CD002DD1F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3576ECDF150482CD002DD1F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3576ECE1150482CD002DD1F4 /* PusherChat-Prefix.pch */ = {isa = PBXFileReference; path = "PusherChat-Prefix.pch"; sourceTree = "<group>"; };
-		3576ECE2150482CD002DD1F4 /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		3576ECE1150482CD002DD1F4 /* PusherChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PusherChat-Prefix.pch"; sourceTree = "<group>"; };
+		3576ECE2150482CD002DD1F4 /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
 		3576ECE3150482CD002DD1F4 /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		3576ECEA150482E5002DD1F4 /* ILChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILChatViewController.h; sourceTree = "<group>"; };
+		3576ECEB150482E5002DD1F4 /* ILChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILChatViewController.m; sourceTree = "<group>"; };
+		3576ECEC150482E5002DD1F4 /* ILChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILChatViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +64,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35492ECE1507F8DE007285FA /* QuartzCore.framework in Frameworks */,
+				35492E1515056B27007285FA /* libicucore.dylib in Frameworks */,
+				35492E091505674E007285FA /* Security.framework in Frameworks */,
+				35492E0715056545007285FA /* CFNetwork.framework in Frameworks */,
+				35492E051505652D007285FA /* SystemConfiguration.framework in Frameworks */,
 				3576ECD4150482CD002DD1F4 /* UIKit.framework in Frameworks */,
 				3576ECD6150482CD002DD1F4 /* Foundation.framework in Frameworks */,
 				3576ECD8150482CD002DD1F4 /* CoreGraphics.framework in Frameworks */,
+				35492DF41505433C007285FA /* libPusher-combined.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35492DF6150564E6007285FA /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				35492DF7150564E6007285FA /* PTEventListener.h */,
+				35492DF8150564E6007285FA /* PTPusher.h */,
+				35492DF9150564E6007285FA /* PTPusherAPI.h */,
+				35492DFA150564E6007285FA /* PTPusherChannel.h */,
+				35492DFB150564E6007285FA /* PTPusherConnection.h */,
+				35492DFC150564E6007285FA /* PTPusherDelegate.h */,
+				35492DFD150564E6007285FA /* PTPusherErrors.h */,
+				35492DFE150564E6007285FA /* PTPusherEvent.h */,
+				35492DFF150564E6007285FA /* PTPusherEventDispatcher.h */,
+				35492E00150564E6007285FA /* PTPusherEventPublisher.h */,
+				35492E01150564E6007285FA /* PTPusherMacros.h */,
+				35492E02150564E6007285FA /* PTPusherPresenceChannelDelegate.h */,
+				35492E03150564E6007285FA /* SRWebSocket.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
 		3576ECC4150482CD002DD1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +119,11 @@
 		3576ECD2150482CD002DD1F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35492ECD1507F8DE007285FA /* QuartzCore.framework */,
+				35492E1415056B27007285FA /* libicucore.dylib */,
+				35492E081505674E007285FA /* Security.framework */,
+				35492E0615056545007285FA /* CFNetwork.framework */,
+				35492E041505652D007285FA /* SystemConfiguration.framework */,
 				3576ECD3150482CD002DD1F4 /* UIKit.framework */,
 				3576ECD5150482CD002DD1F4 /* Foundation.framework */,
 				3576ECD7150482CD002DD1F4 /* CoreGraphics.framework */,
@@ -72,6 +134,12 @@
 		3576ECD9150482CD002DD1F4 /* PusherChat */ = {
 			isa = PBXGroup;
 			children = (
+				35492E1F150574C2007285FA /* JSONKit.h */,
+				35492DF6150564E6007285FA /* headers */,
+				35492DF31505433C007285FA /* libPusher-combined.a */,
+				3576ECEA150482E5002DD1F4 /* ILChatViewController.h */,
+				3576ECEB150482E5002DD1F4 /* ILChatViewController.m */,
+				3576ECEC150482E5002DD1F4 /* ILChatViewController.xib */,
 				3576ECE2150482CD002DD1F4 /* ILAppDelegate.h */,
 				3576ECE3150482CD002DD1F4 /* ILAppDelegate.m */,
 				3576ECDA150482CD002DD1F4 /* Supporting Files */,
@@ -142,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3576ECDE150482CD002DD1F4 /* InfoPlist.strings in Resources */,
+				3576ECEE150482E5002DD1F4 /* ILChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +223,7 @@
 			files = (
 				3576ECE0150482CD002DD1F4 /* main.m in Sources */,
 				3576ECE4150482CD002DD1F4 /* ILAppDelegate.m in Sources */,
+				3576ECED150482E5002DD1F4 /* ILChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +247,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jeremy Templier (PQB4456LN5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -192,6 +262,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0FAAE7AC-A2C2-4710-80E3-DA7D183E4BC9";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -202,7 +273,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jeremy Templier (PQB4456LN5)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -211,6 +282,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0FAAE7AC-A2C2-4710-80E3-DA7D183E4BC9";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -222,6 +294,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PusherChat/PusherChat-Prefix.pch";
 				INFOPLIST_FILE = "PusherChat/PusherChat-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PusherChat\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -233,6 +310,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PusherChat/PusherChat-Prefix.pch";
 				INFOPLIST_FILE = "PusherChat/PusherChat-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PusherChat\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +339,7 @@
 				3576ECE9150482CD002DD1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
